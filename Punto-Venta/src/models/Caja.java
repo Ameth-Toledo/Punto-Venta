@@ -4,7 +4,6 @@ public class Caja {
 
     private double saldoTotal;
     private double apertura;
-    private double arqueo;
 
 
     public double getSaldoTotal() {
@@ -28,6 +27,4 @@ public class Caja {
     public void sumarSaldo(double monto){
         saldoTotal += monto;
     }
-
-
 }

@@ -3,8 +3,6 @@ package models;
 import java.util.ArrayList;
 
 public class Inventario {
-    Producto producto = new Producto();
-
     private ArrayList<Producto> productos=new ArrayList<>();
     private ArrayList<Producto> registrarVentas = new ArrayList<>();
 
@@ -23,10 +21,4 @@ public class Inventario {
     public ArrayList<Producto> getProductos() {
         return productos;
     }
-
-    public void setProductos(ArrayList<Producto> productos) {
-        this.productos = productos;
-    }
-
-
 }

@@ -1,15 +1,9 @@
 package models;
 
 public class Producto {
-
     private String nombre;
-
     private double precio;
-
     private int cantidad;
-
-    public Producto() {
-    }
 
     public Producto(String nombre, double precio, int cantidad) {
         this.nombre = nombre;
@@ -19,10 +13,6 @@ public class Producto {
 
     public String getNombre() {
         return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
     }
 
     public double getPrecio() {
@@ -40,6 +30,5 @@ public class Producto {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
-
 
 }
